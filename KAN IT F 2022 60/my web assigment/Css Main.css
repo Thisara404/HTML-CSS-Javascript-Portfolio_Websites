@@ -1,0 +1,475 @@
+.Body{
+    border-radius: 50px;
+    background-color: #00ff5195;  
+    width: 100%;
+   	
+}
+.header {
+    padding: 10px 0px 10px 0px;    
+    border-radius: 20px;
+    height: 150px;
+    width: 100%;
+    background-color: #05b144ae;
+    margin-bottom: 5px;
+}
+ 
+.navbar a {
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+ 
+.navbar a.right {
+    float: right;
+    border-radius: 50px;
+}
+  
+.navbar a:hover {
+    position: relative;
+    margin-top: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: #04894d;
+    color: black;
+}
+.active {
+    
+    border-radius: 50px;
+    background-color:#007f7b;
+} 
+.photo{
+    display: flex;
+    height: 500px;
+    
+}
+/*.sec1{
+    height: 500px;
+    width: 15%;
+    background-color: #0d00ff85;
+    }*/
+.sec2{
+    display: grid;
+    height: 500px;
+    width: 75%;
+    margin-left: 225px;
+    position: relative;
+}
+.sec2 img{
+
+    width: 100%;
+    height:  50px;
+}
+.sec3{
+   
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+}
+
+.para-1{
+    flex-basis: 50%;
+    padding-left: 130px;
+    margin-top: 100px;
+}
+.para-2{
+    flex-basis: 50%;
+    margin-top: 100px;
+    padding-right: 140px;
+}
+.Paragraph-2{
+    line-height: 100px;
+}
+.Container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.Container-Sub1{
+    padding-left: 130px;
+    margin-top: 100px;
+    flex-basis: 50%;
+}
+.Container-Sub2{
+    flex-basis: 50%;
+}
+.Container-Sub1,
+    .Container-Sub2,
+       img{
+        border-radius: 50px;
+            height: 500px;
+            width: 380px;
+}
+.Heading{
+    font-family: "Gtwalsheimprotrial, sans-serif";
+    text-align: left;
+    position: relative;   
+}
+.Heading-2{
+    position: relative;
+    font-size: 100px;
+    text-align: left;
+    font-family: "Gtwalsheimprotrial, sans-serif";
+    font-weight: bold;
+}
+.Heading-3{
+    text-align: left;
+    padding-bottom: 140px;
+    position: relative;
+}
+.Heading-4{
+    padding-bottom: 20px;
+     text-align: left;
+     line-height: 100px;
+     position: relative;
+}
+.Paragraph{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    
+}
+.Paragraph-2{
+    font-family: "Gtwalsheimprotrial, sans-serif";
+    text-align: left;
+    font-size: 1.3em;
+    line-height: 24px;
+    position: relative;
+    padding-left: 150px;
+    position: relative;
+
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#Dot{
+    color: black;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+}
+#Dot2{
+    color: darkblue;
+    font-weight: bold;
+    position: relative;
+}
+
+/*-------Footer------------------*/
+.footer{
+    margin-top: 5px;
+    border-radius: 40px;
+    display: flex;
+    background-color: #03712b9e; 
+    height:300px;
+    width: 100%;
+    padding-left: 90px;
+    position: relative;
+} 
+
+.sub1{
+   padding-right: 30px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-right: 5px solid rgb(21, 255, 0);
+    position: relative;
+    flex-basis: 30%;
+}
+.sub1 img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.sub1 p{
+    padding-bottom: 50px;
+    text-align: center;
+    color:#000000 ;
+}
+
+.sub2 ul li{
+    list-style-type: none;
+    color: darkblue;
+    padding: 10px;
+    }
+.sub2{
+    display: inline-block;
+    width: 48%;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-right: 5px solid rgb(21, 255, 0);
+    position: relative;
+    flex-basis: 30%;
+}
+.sub3{
+    display: inline-block;
+    position: relative;
+    flex-basis: 30%;
+    padding-left: 20px;
+    height: 200px;
+    margin-top: 20px;
+}
+h4
+{
+    padding: 20px 0px 0px 20px;
+    font-size: 25px;
+    color: rgb(5, 23, 69);
+    position: relative;
+}
+.contact{
+    padding-left: 0px;
+    position: relative;
+}    
+.media{
+    padding:20px 20px 20px 20px;
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+    position: relative;
+}
+/*------------- Career+ ------------*/
+.Get-My-Cv{
+    display: flex;
+       background-color: #00fff79a;
+       margin-top: 250px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+}
+.Get-My-Cv h1 
+{
+    margin-left: 350px
+    
+}
+.Get-My-Cv2{
+    background-color: rgb(0, 255, 42);
+
+}
+.Career-Parag{
+    color: black;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-top: 75px;
+      padding-bottom: 70px;
+      text-align: center;
+     padding-left: 300px;
+     padding-right: 300px;
+}
+#Span {
+    color: rgb(255, 255, 255);
+}
+.Tel{
+    color: #000000;
+}
+#Downloads{
+    border-radius:50px ;
+    background-color: rgb(21, 255, 0);
+   padding: 10px 30px 10px 30px;
+   margin-top: 20px;
+   margin-left: 550px
+}
+#Downloads:hover{
+    background-color: #00b3ffac;
+    color: black;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+/*---------------------------------------
+    Contact Form             
+  -----------------------------------------*/
+
+.Contact-Form{
+    margin: 0px 0px 0px 0px;
+}
+
+  .d17{
+    width: 65%;
+    height:530px;
+    background-color:#026d66cb;
+    border-radius: 50px;
+    margin-left: 17%;
+    padding: 20px;
+    
+   
+}
+label #form {
+    color: #000000;
+   
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(32, 27, 56);
+    border-radius: 10px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 9px 12px 12px 0;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family:Verdana;
+    font-size: 20px;
+    text-align: left;
+
+  }
+  
+  input[type=submit] {
+    background-color:rgb(0, 128, 255);
+    color: white;
+    padding: 12px 80px;
+    border: 1px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family:Verdana;
+    font-size: 15px;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color:white;
+    color: rgb(55, 63, 202);
+    transition: .7s ease;
+    font-size: 20px;
+  }
+  
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 72%;
+    margin-top: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row2::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+/* ------------------Image Gallery----------------- */
+
+.d10{
+    position: relative;
+    display: flex;
+    
+    height: 400px;
+    background-color: rgba(34, 25, 53, 0);
+    margin-top: 45px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+
+.d11{
+    width:25%;
+    height:400px;
+    
+    
+}
+
+.d12{
+    width:25%;
+    height: 400px;
+    
+    
+}
+
+.d13{
+    width:25%;
+    height: 400px;
+    
+    
+}
+
+.container2 {
+    position: relative;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+    height: 625;
+    border-radius: 10px;
+    border: 3px solid rgb(32, 27, 56);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #00c8ffa0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .7s ease;
+    border-radius: 10px;
+    border: 3px solid white;
+  }
+  
+  .container2:hover .overlay
+   {
+    bottom: 0;
+    height: 100%;
+  }
+  .text2 a{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    font-family:Verdana;
+  }
+
+  .text2 a:hover{
+    font-size: 55px;
+    transition: .7s ease;
+  }    
+
+.table{
+    background-color: #06b8a69a;
+    color: black;
+    margin-left: 350px;
+    text-align: center;
+    border-radius: 50px;
+}
