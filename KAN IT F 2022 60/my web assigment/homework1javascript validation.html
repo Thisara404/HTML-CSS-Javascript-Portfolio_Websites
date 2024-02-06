@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        
+    </head>
+    <style>
+       body{
+        background-image: url("./images/vintage-pink-telephone-composition\ 2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        
+        height: 600px;
+        width: 600px;
+        padding-top: 50px ;
+        padding-left: 550px;
+        padding-right: 400px;
+        position: absolute;
+       }
+        table{
+            border-radius: 50px;
+            background-color: #c5fffa;
+            padding: 30px;
+            border: 2px solid gray;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            gap: 10px;
+          
+        }
+        .table_body{
+            border-radius: 50px;
+            background-color: rgb(87, 254, 151);
+            border: 2px solid black;
+            margin: 5px;
+            width: 250px;
+            justify-content: center;
+            padding: 50px;
+            padding-top: 10px;
+            position: relative;
+            
+        }
+        tr,td{
+            font-size: 30px;
+            border-radius: 5px;
+        }
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #user,#em,#p1,#p2{
+            border-radius: 7px;
+            padding: 5px;
+            text-align: center;
+            background-color: aqua;
+            color: black;
+
+        }
+        table.center { 
+            margin-left:auto;
+             margin-right:auto;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+        .Colon{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+            color: rgb(38, 0, 255);
+        }
+        #Reg{
+            background-color: rgb(149, 255, 51);
+            border-radius: 20px;
+            font-size: 15px;
+        }
+    </style>
+    <body >
+        
+        <div class="table_body">
+        <h1>Get in Touch With Us <span class="Colon" >,</span> </h1>
+        <table class="center">
+            <tr>
+                <td><input type="text" placeholder="User Name" id="user"></td>
+
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Email" id="em"></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Password" id="p1"></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Confirm Password" id="p2"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Register" onclick="create_account()" id="Reg"></td>
+            </tr>
+        </table>
+
+        <script type="text/javascript">
+            function create_account()
+            {
+              let name=document.getElementById("user").value;
+              let email=document.getElementById("em").value;
+              let password=document.getElementById("p1").value;
+              let cpassword=document.getElementById("p2").value;
+              
+              let letters=/^[A-Za-z]+$/;
+              let email_val=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+              if(name==''|| email==""||password==""||cpassword=="")
+              {
+                alert("Can't Be Epmty ..Enter Each Details correctly ");
+              }
+              else if(!letters.test(name))
+              {
+                alert("Name is incorect . Must contain alphabets only");
+
+              }
+              else if (!email_val.test(email))
+              {
+                alert("Email format is incorrect .. Enter a valid email id ");
+              }
+              else if(password!=cpassword)
+              {
+                alert("Password not matching");
+              }
+              else if(document.getElementById("p1").value.length>7)
+            {
+                alert("Password maximum length is '7'");
+            }
+            else if(document.getElementById("p1").value.length<5)
+            {
+                alert("Password minimum length is'5'");
+            }
+            else
+            {
+                alert("your account has been created successfull..... ");
+                alert("Redirecting to homepage");
+            }
+            window.location="homework1javascript validation.html";
+            }
+
+        </script>
+        </div>
+    </body>
+</html>
