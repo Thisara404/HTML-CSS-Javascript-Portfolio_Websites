@@ -166,10 +166,15 @@ p{
 }
 #skill{
     font-size: 50px;
-    color: #0d00ff;
+    color: #fff;
 }
 #dot4{
-    color: #ff0000;
+    color: #12ff00;
+    font-size: 80px;
+}
+#skill2{
+    font-size: 80px;
+    color: #fff;
 }
 /*-------Footer------------------*/
 .footer{
