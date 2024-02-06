@@ -165,16 +165,16 @@ p{
     position: relative;
 }
 #skill{
-    font-size: 50px;
-    color: #fff;
+    font-size: 80px;
+    color: #0000ff;
 }
 #dot4{
-    color: #12ff00;
+    color: #00ffff;
     font-size: 80px;
 }
 #skill2{
-    font-size: 80px;
-    color: #fff;
+    font-size: 30px;
+    color: #ffffff;
 }
 /*-------Footer------------------*/
 .footer{
